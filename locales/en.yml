@@ -1,0 +1,11 @@
+en:
+  title: Genevieve Perron Migneron
+  hello: Hi! I'm Gen
+  intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus molestie nulla, at dictum tortor cursus a. Vestibulum gravida velit at aliquet interdum. Phasellus ex erat, tempus at erat quis, eleifend pretium eros.
+  intro_lang: 'Available in %{french} or %{english}'
+  intro_en: english
+  intro_fr: french
+  content:
+    about: About me
+    copy: copy
+    download: Download Resume

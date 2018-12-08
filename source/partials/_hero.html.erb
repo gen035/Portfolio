@@ -1,0 +1,23 @@
+<header class="hero">
+  <div class="hero-socials container">
+    <ul class="hero-socials-list">
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-github"></i></li>
+      <li><i class="fab fa-instagram"></i></li>
+    </ul>
+  </div>
+  <div class="hero-content">
+    <div class="container">
+      <h1 class="col-md-12"><%= t(:hello) %></h1>
+      <div class="col-md-6 intro"><%= t(:intro) %></div>
+      <div class="col-md-12">
+        <%= t(
+            'intro_lang',
+              french:  link_to(t('intro_fr'), '/fr'),
+              english: link_to(t('intro_en'), '../')
+          ).html_safe %>
+      </div>
+      <div class="col-md-12 intro-arrow"><i class="fas fa-caret-down"></i></div>
+    </div>
+  </div>
+</header>
