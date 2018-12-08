@@ -1,8 +1,9 @@
-fr:
+en:
   title: Genevieve Perron Migneron
-  hello: Salut ! 
-  intro: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris maximus molestie nulla, at dictum tortor cursus a. Vestibulum gravida velit at aliquet interdum. Phasellus ex erat, tempus at erat quis, eleifend pretium eros.
+  hello: Salut !
+  intro: Genevieve Perron Migneron, developeur Frontend
+  intro_lang: 'Disponible en %{french} ou %{english}'
+  intro_en: anglais
+  intro_fr: francais
   content:
-    about: À propos de moi
-    copy: copy
-    download: Télécharger CV
+    download: Telecharger mon CV

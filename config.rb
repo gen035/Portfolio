@@ -6,6 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :i18n, :mount_at_root => :en, :path => "/:locale/"
+activate :relative_assets
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
