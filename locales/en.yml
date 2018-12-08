@@ -1,11 +1,11 @@
 en:
   title: Genevieve Perron Migneron
   hello: Hi! I'm Gen
-  intro: Frontend Web Developer
+  intro: Frontend Web Developer - Available for hire
   intro_lang: 'Available in %{french} or %{english}'
   intro_en: english
   intro_fr: french
   content:
     about: About me
     copy: copy
-    download: Download Resume
+    download: Download my resume
