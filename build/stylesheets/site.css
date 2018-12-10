@@ -2052,6 +2052,19 @@ body {
   -webkit-transform: scale(1.1);
           transform: scale(1.1); }
 
+.contact-me {
+  width: 100%;
+  text-align: center;
+  background-color: #343434;
+  position: absolute;
+  bottom: 0;
+  color: #ffffff; }
+
+.contact-me a {
+  padding: 10px 0;
+  text-decoration: none;
+  display: block; }
+
 footer {
   width: 100%;
   height: 200px;
