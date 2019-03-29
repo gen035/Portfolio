@@ -1,8 +1,8 @@
 fr:
   title: Genevieve Perron Migneron
   hello: Salut !
-  intro: Genevieve Perron Migneron, developeur Frontend
-  intro_lang: 'Disponible en %{french} ou %{english}'
+  intro: Genevieve Perron Migneron<br/><br/>Développeur Frontend - Chez %{job}
+  intro_lang: 'Je suis disponible en %{french} ou en %{english}'
   intro_en: anglais
   intro_fr: francais
   content:

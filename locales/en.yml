@@ -1,8 +1,8 @@
 en:
   title: Genevieve Perron Migneron
   hello: Hi! I'm Gen
-  intro: Frontend Web Developer - Available for hire
-  intro_lang: 'Available in %{french} or %{english}'
+  intro: Frontend Web Developer - At %{job}
+  intro_lang: I'm available in %{french} or %{english}
   intro_en: english
   intro_fr: french
   content:
