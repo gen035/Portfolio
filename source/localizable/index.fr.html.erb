@@ -28,10 +28,7 @@
       <h1 class="col-md-12"><%= t(:hello) %></h1>
       <div class="col-lg-6 content-intro">
         <p class="content-intro-copy">
-          <%= t(
-            'intro',
-              job: link_to('Clinia', 'https://clinia.ca/fr/', target: '_blank', data: { track: "", category: "External", track_action: "click", track_label: "Clinia - Fr" })
-          ).html_safe %>
+          <%= t(:intro) %>
         </p>
         <div class="content-location">
           <i class="fas fa-map-marker-alt"></i>
@@ -45,7 +42,7 @@
           <li><i class="fab fa-react"></i></li>
           <li><i class="fab fa-angular"></i></li>
         </ul>
-        <!--<a href="../assets/genevieve_perron_migneron_fr.pdf" class="button" target="_blank"><%= t('content.download') %></a>-->
+        <a href="../assets/genevieve_perron_migneron_fr.pdf" class="button" target="_blank"><%= t('content.download') %></a>
       </div>
       <div class="col-md-12 content-intro-lang">
         <%= t(
