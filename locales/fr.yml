@@ -1,8 +1,8 @@
 fr:
   title: Genevieve Perron Migneron
   hello: Salut !
-  #intro: Genevieve Perron Migneron<br/><br/>Développeur Frontend - Chez %{job}
-  intro: Genevieve Perron Migneron<br/><br/>Développeur Frontend
+  intro: Genevieve Perron Migneron<br/><br/>Développeur Frontend - Chez %{job}
+  #intro: Genevieve Perron Migneron<br/><br/>Développeur Frontend
   intro_lang: 'Je suis disponible en %{french} ou en %{english}'
   intro_en: anglais
   intro_fr: francais

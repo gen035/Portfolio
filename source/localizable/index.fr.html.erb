@@ -28,11 +28,15 @@
       <h1 class="col-md-12"><%= t(:hello) %></h1>
       <div class="col-lg-6 content-intro">
         <p class="content-intro-copy">
-          <%= t(:intro) %>
+          <!--<%= t(:intro) %>-->
+          <%= t(
+            'intro',
+              job: link_to('Hydrogène Solutions Web', 'https://hydrogene.io/', target: "_blank", data: { track: "", category: "External", track_action: "click", track_label: "Hydrogene - Fr" })
+          ) %>
         </p>
         <div class="content-location">
           <i class="fas fa-map-marker-alt"></i>
-          Montreal, Qc
+          Montreal, Canada
         </div>
         <ul class="content-skills">
           <li><i class="fab fa-html5"></i></li>
@@ -41,8 +45,9 @@
           <li><i class="fab fa-js-square"></i></li>
           <li><i class="fab fa-react"></i></li>
           <li><i class="fab fa-angular"></i></li>
+          <li><i class="fab fa-vuejs"></i></li>
         </ul>
-        <a href="../assets/genevieve_perron_migneron_fr.pdf" class="button" target="_blank"><%= t('content.download') %></a>
+        <!--<a href="../assets/genevieve_perron_migneron_fr.pdf" class="button" target="_blank"><%= t('content.download') %></a>-->
       </div>
       <div class="col-md-12 content-intro-lang">
         <%= t(
