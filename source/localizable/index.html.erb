@@ -31,7 +31,7 @@
           <!--<%= t(:intro) %>-->
           <%= t(
             'intro',
-              job: link_to('Hydrogène Solutions Web', 'https://hydrogene.io/', target: "_blank", data: { track: "", category: "External", track_action: "click", track_label: "Hydrogene - En" })
+              job: link_to('Golo', 'https://www.golo.io/en-ca/', target: "_blank", data: { track: "", category: "External", track_action: "click", track_label: "Golo" })
           ) %>
         </p>
         <div class="content-location">
@@ -52,13 +52,13 @@
       <div class="col-md-12 content-intro-lang">
         <%= t(
             'intro_lang',
-              french:  link_to(t('intro_fr'), 'fr', data: { track: "", category: "langSwitch", track_action: "click", track_label: "French" }),
-              english: link_to(t('intro_en'), '', data: { track: "", category: "langSwitch", track_action: "click", track_label: "English" })
+              french:  link_to(t('intro_fr'), 'http://www.gen-migneron.com/fr', data: { track: "", category: "langSwitch", track_action: "click", track_label: "French" }),
+              english: link_to(t('intro_en'), 'http://www.gen-migneron.com', data: { track: "", category: "langSwitch", track_action: "click", track_label: "English" })
           ).html_safe %>
       </div>
     </div>
   </div>
   <div class="contact-me">
-    <a href="mailto:info@gen-migneron.com">Contact me</a>
+    <a href="mailto:info@gen-migneron.com"><%= t('contact') %></a>
   </div>
 </div>
