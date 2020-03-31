@@ -1677,7 +1677,6 @@ img {
   background-color: #343434;
   color: #ffffff;
   border: 3px solid #343434;
-  text-transform: uppercase;
   text-decoration: none;
   -webkit-transition: color 250ms, background-color 250ms, border 250ms;
   transition: color 250ms, background-color 250ms, border 250ms; }
@@ -1769,22 +1768,12 @@ body {
   transition: transform 250ms ease-in;
   transition: transform 250ms ease-in, -webkit-transform 250ms ease-in; }
 
-.content-skills li:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1); }
-
 .contact-me {
-  width: 100%;
-  text-align: center;
-  background-color: #343434;
   position: absolute;
   bottom: 0;
-  color: #ffffff; }
-
-.contact-me a {
-  padding: 10px 0;
-  text-decoration: none;
-  display: block; }
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%); }
 
 footer {
   width: 100%;
