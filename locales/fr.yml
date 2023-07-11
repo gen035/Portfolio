@@ -1,7 +1,7 @@
 fr:
   title: Genevieve Perron Migneron
   hello: Salut !
-  intro: Genevieve Perron Migneron<br/><br/>Développeur Web Senior / Gestionnaire - Chez %{job}
+  intro: Genevieve Perron Migneron<br/><br/>Gestionnaire Senior, Développement web - Chez %{job}
   #intro: Genevieve Perron Migneron<br/><br/>Développeur Frontend
   intro_lang: 'Disponible en %{french} ou en %{english}'
   intro_en: anglais
