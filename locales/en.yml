@@ -1,7 +1,7 @@
 en:
   title: Genevieve Perron Migneron
   hello: Hi! I'm Gen
-  intro: Senior Web Developer & Manager - At %{job}
+  intro: Senior Manage, web development - At %{job}
   #intro: Frontend Web Developer - Available for hire
   intro_lang: Available in %{french} or %{english}
   intro_en: english
