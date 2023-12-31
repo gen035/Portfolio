@@ -52,7 +52,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ form }) => {
     };
 
     emailjs
-      .send(process.env.EMAIL_SERVICE, process.env.EMAIL_TEMPLATE, templateParams, process.env.EMAIL_TOKEN)
+      .send(process.env.NEXT_PUBLIC_EMAIL_SERVICE, process.env.NEXT_PUBLIC_EMAIL_TEMPLATE, templateParams, process.env.NEXT_PUBLIC_EMAIL_TOKEN)
       .then((response) => {
         console.log('Email sent successfully:', response);
         setFormSent(true);
