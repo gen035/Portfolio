@@ -1,0 +1,23 @@
+{
+  "intro": {
+    "title": "Hey! 👋",
+    "description": "Genevieve Perron Migneron <br/> Gestionnaire senior, développement web - @ Ubisoft",
+    "available": "Disponible en ",
+    "resume": "Télécharger mon CV"
+  },
+  "contact": {
+    "title": "Me contacter 🚀",
+    "fields": {
+      "name": "Nom",
+      "email": "Courriel",
+      "subject": "Sujet",
+      "message": "Message",
+      "button": "Envoyer"
+    },
+    "errors": {
+      "email": "Courriel erroné",
+      "fields": "Remplir tous les champs"
+    },
+    "thankyou": "Merci beaucoup de m'avoir contacté ! 🚀 Votre message a été transmis."
+  }
+}
