@@ -41,7 +41,7 @@ export default async function Home({
         key={lang}
         href={lang === i18n.defaultLocale ? "/contact" : `/${lang}/contact`}
       >
-        <span>Contact</span>
+        <span>Contact ☕</span>
       </Link>
     </main>
   )

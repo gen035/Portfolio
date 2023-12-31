@@ -19,6 +19,7 @@ const config: Config = {
     colors: {
       'white': '#ffffff',
       'black': '#000000',
+      'mediumgrey': '#686868',
       'darkgrey': '#343434',
     },
     extend: {
