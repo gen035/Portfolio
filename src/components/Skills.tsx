@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3Alt, FaSass, FaJsSquare, FaReact, FaAngular, FaVuejs } f
 
 const Skills: FC = () => {
   return (
-    <ul className="intro-content-skills mt-2">
+    <ul className="intro-content-skills my-2">
       <li className="intro-content-skills-html"><FaHtml5 /></li>
       <li className="intro-content-skills-css"><FaCss3Alt /></li>
       <li className="intro-content-skills-sass"><FaSass /></li>
