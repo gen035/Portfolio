@@ -12,7 +12,7 @@ Welcome to my stellar Web Developer Portfolio crafted with Next.js, Tailwind CSS
 
 1. **Clone the Magic:**
    ```bash
-   git clone https://github.com/gen035/portfolio.git
+   git clone git@github.com:gen035/portfolio.git
    ```
 
 2. **Prepare the Cauldron:**
