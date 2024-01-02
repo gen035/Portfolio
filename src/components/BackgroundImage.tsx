@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 import axios from 'axios';
 
 interface UnsplashImage {
@@ -11,8 +11,7 @@ interface UnsplashImage {
   width: number;
   height: number;
 }
-
-const BackgroundImage: React.FC<BackgroundImage> = () => {
+const BackgroundImage: FC = () => {
   const [images, setImages] = useState<UnsplashImage[]>([]);
   const [styles, setStyles] = useState({})
 
@@ -35,7 +34,7 @@ const BackgroundImage: React.FC<BackgroundImage> = () => {
         );
 
         setImages(horizontalImages);        
-      } catch (error) {
+      } catch (error:any) {
         console.error('Error fetching images:', error.message);
       }
     };
