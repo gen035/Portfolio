@@ -1,7 +1,8 @@
 {
   "intro": {
     "title": "Hey! 👋",
-    "description": "Genevieve Perron Migneron <br/> Gestionnaire senior, développement web - @ Ubisoft",
+    "description": "Genevieve Perron Migneron",
+    "description2": "Gestionnaire senior, développement web - @ Ubisoft",
     "available": "Disponible en ",
     "resume": "Télécharger mon CV"
   },

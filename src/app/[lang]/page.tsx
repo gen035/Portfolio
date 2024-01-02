@@ -13,9 +13,10 @@ export default async function Home({
 
   return (
     <main className="w-3/4 mx-auto intro">
-      <h1 className="intro-title text-4xl md:text-6xl font-light">{intro.title}</h1>
+      <h1 className="intro-title text-4xl md:text-6xl font-light mb-2">{intro.title}</h1>
       <div className="intro-content tracking-wide">
         <p className="intro-content-copy">{intro.description}</p>
+        {intro.description2 && <p className="intro-content-copy">{intro.description2}</p>}
         <div className="intro-content-location flex mb-4 items-center">
           <FaMapMarkerAlt />
           Montreal, Canada
@@ -24,7 +25,7 @@ export default async function Home({
           {intro.available}
           {[...i18n.locales].sort().map((locale) => (
             <Link
-              key={lang}
+              key={locale}
               href={lang === i18n.defaultLocale ? "/" : `/${lang}`}
             >
               {locale === 'fr' ? 'français' :'english'}
