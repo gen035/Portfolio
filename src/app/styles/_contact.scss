@@ -1,0 +1,27 @@
+.contact {
+  color: theme('colors.white');
+  input,
+  textarea {
+    background-color: rgba(0, 0, 0, 0.70);
+    
+  }
+
+  label {
+    position: relative;
+    &:not(:has(textarea)) {
+      &::after {
+        bottom: -11px;
+      }
+    }
+
+    &::after {
+        content: "";
+        background: linear-gradient(90deg, blue, red);
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        left: 0;
+        bottom: 0px;
+      }
+  }
+}

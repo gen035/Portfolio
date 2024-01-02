@@ -1,0 +1,15 @@
+.social-media-icons {
+  ul {
+    text-align: center;
+    li {
+      display: inline-block;
+      color: theme('colors.white');
+      font-size: 32px;
+      margin: 0 10px;
+      transition: color 250ms;
+      &:hover {
+        color: theme('colors.mediumgrey')
+      }
+    }
+  }
+}

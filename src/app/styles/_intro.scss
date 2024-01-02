@@ -1,0 +1,80 @@
+.intro {
+  color: theme('colors.white');
+
+  &-content-lang {
+    a {
+      position: relative;
+      text-decoration: underline;
+      &:last-of-type {
+        margin-left: 10px;
+
+        &::before {
+          content: "-";
+          position: absolute;
+          left: -8px;
+        }
+      }
+    }
+  }
+
+  &-content-location {
+    &:hover {
+      svg {
+        color: #bd032d;
+      }
+    }
+    svg {
+      margin-right: 6px;
+      transition: color 250ms linear;
+    }
+  }
+
+  &-content-skills {
+    li {
+      color: theme('colors.white');
+      display: inline-block;
+      font-size: 32px;
+      padding: 0 5px;
+      transition: color 250ms linear;
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+
+    .intro-content-skills-html {
+      &:hover {
+        color: #dc4c24;
+      }
+    }
+    .intro-content-skills-css {
+      &:hover {
+        color: #0b74b8;
+      }
+    }
+    .intro-content-skills-sass {
+      &:hover {
+        color: #c66594;
+      }
+    }
+    .intro-content-skills-js {
+      &:hover {
+        color: #f0db4e;
+      }
+    }
+    .intro-content-skills-react {
+      &:hover {
+        color: #62dbfb;
+      }
+    }
+    .intro-content-skills-angular {
+      &:hover {
+        color: #bd032d;
+      }
+    }
+    .intro-content-skills-vue {
+      &:hover {
+        color: #3fba84;
+      }
+    }
+  }
+}

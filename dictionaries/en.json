@@ -1,0 +1,23 @@
+{
+  "intro": {
+    "title": "Hi! I'm Gen 👋",
+    "description": "Senior Manager, web development - @ Ubisoft",
+    "available": "Available in ",
+    "resume": "Download resumé"
+  },
+  "contact": {
+    "title": "Contact me 🚀",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "button": "Send"
+    },
+    "errors": {
+      "email": "Invalid email address.",
+      "fields": "All fields are required."
+    },
+    "thankyou": "Thanks a bunch for contacting me! 🚀 Your message has been beamed directly into my digital lair."
+  }
+}
