@@ -16,7 +16,7 @@ export default async function Home({
       <h1 className="intro-title text-4xl md:text-6xl font-light mb-2">{intro.title}</h1>
       <div className="intro-content tracking-wide">
         <p className="intro-content-copy">{intro.description}</p>
-        {intro.description2 && <p className="intro-content-copy">{intro.description2}</p>}
+        {intro.description2 && intro.description2 !== "" && <p className="intro-content-copy">{intro.description2}</p>}
         <div className="intro-content-location flex mb-4 items-center">
           <FaMapMarkerAlt />
           Montreal, Canada
