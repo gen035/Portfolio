@@ -17,6 +17,7 @@
     &::after {
         content: "";
         background: linear-gradient(90deg, blue, red);
+        background: -moz-linear-gradient(90deg, blue, red);
         position: absolute;
         height: 2px;
         width: 100%;
