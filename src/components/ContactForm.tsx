@@ -12,7 +12,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ form }) => {
   const [message, setMessage] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [error, setError] = useState<string | null>(null);
-  const [bamboozled, setBamboozled] = useState<string | null>('');
+  const [bamboozled, setBamboozled] = useState<string>('');
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const [formSent, setFormSent] = useState<boolean>(false);
 
@@ -52,7 +52,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ form }) => {
     };
 
     emailjs
-      .send(process.env.NEXT_PUBLIC_EMAIL_SERVICE, process.env.NEXT_PUBLIC_EMAIL_TEMPLATE, templateParams, process.env.NEXT_PUBLIC_EMAIL_TOKEN)
+      .send(process.env.NEXT_PUBLIC_EMAIL_SERVICE!, process.env.NEXT_PUBLIC_EMAIL_TEMPLATE!, templateParams, process.env.NEXT_PUBLIC_EMAIL_TOKEN)
       .then((response) => {
         console.log('Email sent successfully:', response);
         setFormSent(true);
