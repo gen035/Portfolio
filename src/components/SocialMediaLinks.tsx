@@ -11,22 +11,22 @@ const SocialMediaLinks: FC = () => {
   const socialMedia: SocialMediaLink[] = [
     {
       title: "GitHub",
-      url: "https://github.com/",
+      url: "https://github.com/gen035",
       icon: "FaGithub"
     },
     {
       title: "Instagram",
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/gen035/",
       icon: "FaInstagram"
     },
     {
-      title: "TikTok",
-      url: "https://www.tiktok.com/",
+      title: "Unsplash",
+      url: "https://unsplash.com/@gen035",
       icon: "FaUnsplash"
     },
     {
       title: "LinkedIn",
-      url: "https://www.linkedin.com/",
+      url: "https://www.linkedin.com/in/gen035/",
       icon: "FaLinkedin"
     }
   ];
