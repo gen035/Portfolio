@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 import { Locale, i18n } from '../../../i18n-config';
 
 import './globals.css'
@@ -34,6 +36,7 @@ export default function RootLayout({
         <BackgroundImages />
         <SocialMediaLinks />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   )
