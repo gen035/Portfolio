@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import { track } from '@vercel/analytics';
 import emailjs from 'emailjs-com';
 
 interface ContactFormProps {
@@ -55,11 +56,13 @@ const ContactForm: React.FC<ContactFormProps> = ({ form }) => {
       .send(process.env.NEXT_PUBLIC_EMAIL_SERVICE!, process.env.NEXT_PUBLIC_EMAIL_TEMPLATE!, templateParams, process.env.NEXT_PUBLIC_EMAIL_TOKEN)
       .then((response) => {
         console.log('Email sent successfully:', response);
+        track('Email sent');
         setFormSent(true);
         // Handle success
       })
       .catch((error) => {
         console.error('Email send failed:', error);
+        track('Email error');
         setError('Failed to send email. Please try again later.');
         // Handle error
       })
