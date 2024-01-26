@@ -26,7 +26,7 @@ export default async function Home({
           {[...i18n.locales].sort().map((locale) => (
             <Link
               key={locale}
-              href={lang === i18n.defaultLocale ? "/" : `/${lang}`}
+              href={`/${locale}`}
             >
               {locale === 'fr' ? 'français' :'english'}
             </Link>
