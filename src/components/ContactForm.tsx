@@ -27,11 +27,11 @@ const ContactForm: React.FC<ContactFormProps> = ({ form }) => {
       setError(form.errors.email);
       return false;
     }
-    
+
     if(bamboozled !== '') {
       return false;
     }
-    
+
     setError(null);
     return true;
   };
@@ -99,7 +99,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ form }) => {
               <textarea className="w-full p-2 opacity-85 text-xs" value={message} onChange={(e) => setMessage(e.target.value)} />
             </label>
           </div>
-          {error && <p className="my-2" style={{ color: 'red' }}>{error}</p>}
+          {error && <p className="my-2 text-xs" style={{ color: 'red' }}>{error}</p>}
           <div>
             <button className="button w-full" type="submit" disabled={isSubmitting}>
               <span>{form.fields.button}</span>

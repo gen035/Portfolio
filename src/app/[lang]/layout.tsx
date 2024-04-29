@@ -4,7 +4,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import { Locale, i18n } from '../../../i18n-config';
 
-import './globals.css'
 import './../styles/index.scss'
 import SocialMediaLinks from '../../components/SocialMediaLinks';
 import BackgroundImages from '../../components/BackgroundImage';

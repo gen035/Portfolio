@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Open Sans", "sans-serif"]
+      sans: ["JetBrains Mono"]
     },
     screens: {
       sm: '480px',
