@@ -13,7 +13,7 @@ const skillsData: Skill[] = [
   { name: 'JavaScript', icon: <FaJsSquare /> },
   { name: 'React', icon: <FaReact /> },
   { name: 'Angular', icon: <FaAngular /> },
-  { name: 'Vue.js', icon: <FaVuejs /> },
+  { name: 'Vue', icon: <FaVuejs /> },
 ];
 
 const SkillsList: FC = () => {

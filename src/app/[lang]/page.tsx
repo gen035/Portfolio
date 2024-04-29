@@ -13,7 +13,7 @@ export default async function Home({
 
   return (
     <main className="w-3/4 mx-auto intro">
-      <h1 className="intro-title text-4xl md:text-6xl font-light mb-2">{intro.title}</h1>
+        <h1 className="intro-title text-4xl md:text-6xl font-bold mb-2"><span>_</span>{intro.title}</h1>
       <div className="intro-content tracking-wide">
         <p className="intro-content-copy">{intro.description}</p>
         {intro.description2 && intro.description2 !== "" && <p className="intro-content-copy">{intro.description2}</p>}
