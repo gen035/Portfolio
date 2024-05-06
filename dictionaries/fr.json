@@ -13,12 +13,13 @@
       "email": "Courriel",
       "subject": "Sujet",
       "message": "Message",
-      "button": "Envoyer"
+      "button": "Envoyer",
+      "button_sending": "En cours..."
     },
     "errors": {
       "email": "Courriel erroné",
       "fields": "Remplir tous les champs"
     },
-    "thankyou": "Merci beaucoup de m'avoir contacté ! 🚀 Votre message a été transmis."
+    "thankyou": "Merci beaucoup de m'avoir contacté ! Votre message a été transmis."
   }
 }

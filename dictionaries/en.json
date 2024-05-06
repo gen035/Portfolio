@@ -13,12 +13,13 @@
       "email": "Email",
       "subject": "Subject",
       "message": "Message",
-      "button": "Send"
+      "button": "Send",
+      "button_sending": "Sending..."
     },
     "errors": {
       "email": "Invalid email address.",
       "fields": "All fields are required."
     },
-    "thankyou": "Thanks a bunch for contacting me! 🚀 Your message has been beamed directly into my digital lair."
+    "thankyou": "Thanks a bunch for contacting me! Your message has been beamed directly into my digital lair."
   }
 }

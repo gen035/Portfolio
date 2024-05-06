@@ -1,9 +1,17 @@
 .contact {
+  /* From https://css.glass */
+  background: rgba(61, 61, 61, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
   color: theme('colors.white');
+}
+.contact-form {
   input,
   textarea {
     background-color: rgba(0, 0, 0, 0.70);
-    
+
   }
 
   label {

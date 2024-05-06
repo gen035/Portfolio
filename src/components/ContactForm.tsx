@@ -74,7 +74,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ form }) => {
   return (
     <>
       {!formSent ? (
-        <form className="contact text-left" onSubmit={handleSubmit}>
+        <form className="contact-form text-left" onSubmit={handleSubmit}>
           <div className="w-full mb-3">
             <label>
               <span className="block font-thin uppercase tracking-wider text-sm mb-1">{form.fields.name}</span>
@@ -102,7 +102,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ form }) => {
           {error && <p className="my-2 text-xs" style={{ color: 'red' }}>{error}</p>}
           <div>
             <button className="button w-full" type="submit" disabled={isSubmitting}>
-              <span>{form.fields.button}</span>
+              <span>{isSubmitting ? form.fields.button_sending: form.fields.button}</span>
             </button>
           </div>
           <input className="hidden" type="text" value={bamboozled} onChange={(e) => setBamboozled(e.target.value)} />
