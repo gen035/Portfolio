@@ -15,7 +15,8 @@ const BackgroundImage: FC = () => {
   const [images, setImages] = useState<UnsplashImage[]>([]);
   const [styles, setStyles] = useState({ 
     backgroundImage: "url('https://images.unsplash.com/photo-1726963121821-ba51f2cc4c10?q=50&w=2000')", 
-    filter: "blur(5px)"
+    filter: "blur(5px)",
+    animation: ""
   });
 
   useEffect(() => {
@@ -52,7 +53,8 @@ const BackgroundImage: FC = () => {
     if(url) {
       setStyles({
         backgroundImage: `url(${url})`,
-        animation: 'blurAnimation 1s normal ease-in-out'
+        animation: 'blurAnimation 1s normal ease-in-out',
+        filter: ""
       })
     }
   }, [images]);
