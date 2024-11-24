@@ -1,0 +1,13 @@
+/* App.css */
+@keyframes blurAnimation {
+  0% {
+    filter: blur(10px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+.blur-effect {
+  animation: blurAnimation 3s normal ease-in-out;
+}
